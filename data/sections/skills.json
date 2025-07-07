@@ -1,0 +1,484 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Frontend {{Architecture}}",
+                            "text": "I build scalable and maintainable apps using Feature-Sliced Design and modern frontend patterns."
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-paper-plane",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Telegram}} Integration",
+                            "text": "I implement custom Telegram authentication and bot-based interactions in web applications."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Frontend Stack"
+                },
+                "es": {
+                    "title": "Stack de Frontend"
+                },
+                "fr": {
+                    "title": "Stack Frontend"
+                },
+                "zh": {
+                    "title": "前端技术栈"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E34F26"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 9
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "I am proficient in HTML5 for building structured web pages.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Soy competente en HTML5 para construir páginas web estructuradas."
+                        },
+                        "fr": {
+                            "text": "Je suis compétent en HTML5 pour créer des pages web structurées."
+                        },
+                        "ko": {
+                            "text": "구조화된 웹 페이지를 구축하기 위해 HTML5에 능숙합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#1572B6"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 12
+                    },
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "I can create responsive and visually appealing designs using CSS3.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Puedo crear diseños receptivos y visualmente atractivos utilizando CSS3."
+                        },
+                        "fr": {
+                            "text": "Je peux créer des designs réactifs et visuellement attrayants en utilisant CSS3."
+                        },
+                        "ko": {
+                            "text": "CSS3를 사용하여 반응형이고 시각적으로 매력적인 디자인을 만들 수 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F7DF1E",
+                        "fillLight": "#a69617"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 2
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas e interactivas."
+                        },
+                        "fr": {
+                            "text": "Maîtrisé JavaScript ES6+ pour des applications web dynamiques et interactives."
+                        },
+                        "ko": {
+                            "text": "동적이고 대화형 웹 애플리케이션을 위한 JavaScript ES6+를 마스터했습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB",
+                        "fillLight": "#317385"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Complete understanding of React for building modern web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Comprensión completa de React para construir aplicaciones web modernas."
+                        },
+                        "fr": {
+                            "text": "Compréhension complète de React pour créer des applications web modernes."
+                        },
+                        "ko": {
+                            "text": "최신 웹 애플리케이션 구축을 위한 React에 대한 완전한 이해."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3178C6"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 8
+                    },
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "text": "Type-safe development with a focus on maintainability and DX.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#7952B3"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 1
+                    },
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap 5+",
+                            "text": "Good understanding of Bootstrap for responsive design.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Buena comprensión de Bootstrap para diseño receptivo."
+                        },
+                        "fr": {
+                            "text": "Bonne compréhension de Bootstrap pour le design réactif."
+                        },
+                        "ko": {
+                            "text": "반응형 디자인을 위한 Bootstrap에 대한 좋은 이해."
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#000000"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Zustand",
+                            "text": "Lightweight and efficient state management in React apps.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-retweet",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#764ABC"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Redux & RTK",
+                            "text": "Efficient global state management and API handling using Redux Toolkit and RTK Query.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-puzzle-piece",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#ffffff"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 3
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "ShadCN UI",
+                            "text": "Flexible and accessible component design with Radix & Tailwind.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-brands fa-telegram",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#0088cc"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Telegram API",
+                            "text": "Authorization, bots, and seamless messaging integration.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "img": "",
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#00b894"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 2
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Feature-Sliced {{Design}}",
+                            "text": "Maintaining scalable project structure for long-term growth.",
+                            "level": ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "es": {
+                    "title": "Idiomas"
+                },
+                "fr": {
+                    "title": "Langues"
+                },
+                "zh": {
+                    "title": "语言"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Intermediate reading proficiency; comfortable reading documentation, articles, and technical content.",
+                            "level": "Intermediate (Reading)"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/ru.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                      "bg": "",
+                      "fill": ""
+                    },
+                    "date": {
+                      "year": null,
+                      "month": null
+                    },
+                    "percentage": null,
+                    "locales": {
+                      "en": {
+                        "title": "Russian",
+                        "text": "Fluent in both spoken and written Russian; confident in professional communication.",
+                        "level": "Fluent"
+                      }
+                    }
+                  },
+                  {
+                    "id": 7,
+                    "img": "images/flags/uz.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                      "bg": "",
+                      "fill": ""
+                    },
+                    "date": {
+                      "year": null,
+                      "month": null
+                    },
+                    "percentage": null,
+                    "locales": {
+                      "en": {
+                        "title": "Uzbek",
+                        "text": "Native speaker with full command of spoken and written Uzbek.",
+                        "level": "Native"
+                      }
+                    }
+                  }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionel}}"
+            },
+            "ko": {
+                "title_short": "경험",
+                "title_short_nav": "경험",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{직업적}} 경험"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA_QgzHuzj5_llZ5VxjKLjpp5xF_Pb-Xxz8w&s",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 1
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 2
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend}} Developer",
+                            "province": "REMOTE",
+                            "country": "",
+                            "institution": "CETERA",
+                            "text": "Worked remotely on maintaining and enhancing the company’s web projects. Participated in bug fixing, data updates, and improvements to corporate websites and internal systems — mainly CRM platforms and Bitrix-based solutions.",
+                            "list": [],
+                            "tags": [
+                                "HTML",
+                                "Bitrix",
+                                "CRM",
+                                "Remote Work"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "https://png.pngtree.com/png-vector/20190507/ourlarge/pngtree-vector-car-icon-png-image_1024755.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend}} Developer",
+                            "province": "Tashkent",
+                            "country": "Uzbekistan",
+                            "institution": "Freelancer",
+                            "text": "Developed the main website and admin panel for a driving school using React, TypeScript, and Vite. Implemented a system to collect client-side parameters (screen width/height, etc.) as part of a fingerprinting mechanism. Used Zustand for state management, Zod for form validation, and ShadCN UI for component styling.",
+                            "list": [],
+                            "tags": [
+                                "React",
+                                "TypeScript",
+                                "Vite",
+                                "Zustand",
+                                "Zod",
+                                "ShadCN UI"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "https://lh3.googleusercontent.com/p/AF1QipPmSbKt8XgwSTi7232GQiNPPBNxZohHyJLJG1eO=s1360-w1360-h1020-rw",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 2
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Frontend}} Developer",
+                            "province": "Ташкент",
+                            "country": "Узбекистан",
+                            "institution": "PRO SFERE",
+                            "text": "I developed admin panels from scratch, implemented integration with an external identification system, and connected to a REST API. Used React, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS, and ShadCN UI. Applied the Feature-Sliced Design (FSD) architecture for scalability and maintainability.",
+                            "list": [],
+                            "tags": [
+                                "React JS",
+                                "Redux Toolkit",
+                                "RTK query",
+                                "SHAD CN",
+                                "FSD",
+                                "TYPESCRIPT",
+                                "VITE",
+                                "TAILWIND CSS"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
