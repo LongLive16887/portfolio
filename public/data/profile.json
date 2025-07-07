@@ -1,8 +1,8 @@
 {
-    "name": "Mark Choi",
+    "name": "Shohruh Mustafoyev",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+    "profilePictureUrl": "https://media.licdn.com/dms/image/v2/D5603AQHZsOuqcKd2RA/profile-displayphoto-crop_800_800/B56ZfgHRnMGQAQ-/0/1751811693838?e=1757548800&v=beta&t=1YZMGmM_fGmW82tMIViGE3D14Kc0wo7QEdOxveYyXOM",
+    "resumePdfUrl": "https://drive.usercontent.google.com/u/0/uc?id=1iy1WLdKg1YkH8ULC8tsi25mvho4SEscM&export=download",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
@@ -10,14 +10,11 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
+            "localized_name": "Shohruh Mustafoyev",
+            "localized_name_stylized": " [[Shohruh {{Mustafoyev}}]]",
+            "status_message_available_for_freelance": "Open to work!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "Frontend Developer"
             ]
         },
         "es": {
